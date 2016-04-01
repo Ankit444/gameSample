@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+     overflow: hidden;
+}
+.wrapper{
+     background-image: url("../images/backgroundImage.jpg");
+    background-size:contain;
+}
+.score{
+    height:50px;
+    width:20%;
+    left:100px;
+    background-color:black;
+    color:black;
+    position: absolute;
+    top:10%;
+    text-align:center;
+    color: bisque;
+    font-family: cursive;
+    border-radius: 5px;
+    color:bisque;
+}
+.path {
+    position:relative;
+    width:273px; 
+    height:100vh;
+    background: url("../images/rd.png");
+    background-size:auto;
+    left:40%;
+    overflow: hidden;
+}
+.car{
+    background-image: url("../images/rdcar.png");
+    position:absolute; 
+    bottom:10%;
+    left:140px;
+    width:23px;
+    height:32px;
+}
+.leftRandomCar{
+    background-image: url("../images/rdcar.png");
+    position:absolute;
+    width:23px;
+    height:32px;
+    top:0px;
+}
+.rightRandomCar{
+    background-image: url("../images/rdcar2.png");
+    position:absolute;
+    width:21px;
+    height:32px;
+    top:0px;
+}  
+.obstacle{
+    background-image: url("../images/blocker.jpg");
+    position:absolute;
+    width:21px;
+    height:32px;
+    top:0px;
+}
